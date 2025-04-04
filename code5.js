@@ -194,6 +194,7 @@ let isConditionTrue_0 = false;
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "UpgradePrice7", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(53).getChild(7));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "UpgradePrice8", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(53).getChild(8));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "UpgradePrice9", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(53).getChild(9));
+}{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "UpgradePrice10", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(53).getChild(10));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "UpgradePrice20", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(53).getChild(20));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "UpgradePrice21", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(53).getChild(21));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "UpgradePrice22", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(53).getChild(22));
@@ -229,6 +230,7 @@ let isConditionTrue_0 = false;
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "Upgraded7", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(54).getChild(7));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "Upgraded8", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(54).getChild(8));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "Upgraded9", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(54).getChild(9));
+}{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "Upgraded10", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(54).getChild(10));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "Upgraded20", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(54).getChild(20));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "Upgraded21", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(54).getChild(21));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Player", "Upgraded22", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(54).getChild(22));
@@ -642,6 +644,21 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() == 10);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(52).getChild(10).add(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(54).getChild(10).add(1);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() == 20);
 }
 if (isConditionTrue_0) {
@@ -903,6 +920,7 @@ let isConditionTrue_0 = false;
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "UpgradePrice7", runtimeScene.getGame().getVariables().getFromIndex(53).getChild(7).getAsNumber());
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "UpgradePrice8", runtimeScene.getGame().getVariables().getFromIndex(53).getChild(8).getAsNumber());
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "UpgradePrice9", runtimeScene.getGame().getVariables().getFromIndex(53).getChild(9).getAsNumber());
+}{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "UpgradePrice10", runtimeScene.getGame().getVariables().getFromIndex(53).getChild(10).getAsNumber());
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "UpgradePrice20", runtimeScene.getGame().getVariables().getFromIndex(53).getChild(20).getAsNumber());
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "UpgradePrice21", runtimeScene.getGame().getVariables().getFromIndex(53).getChild(21).getAsNumber());
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "UpgradePrice22", runtimeScene.getGame().getVariables().getFromIndex(53).getChild(22).getAsNumber());
@@ -938,6 +956,7 @@ let isConditionTrue_0 = false;
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "Upgraded7", runtimeScene.getGame().getVariables().getFromIndex(54).getChild(7).getAsNumber());
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "Upgraded8", runtimeScene.getGame().getVariables().getFromIndex(54).getChild(8).getAsNumber());
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "Upgraded9", runtimeScene.getGame().getVariables().getFromIndex(54).getChild(9).getAsNumber());
+}{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "Upgraded10", runtimeScene.getGame().getVariables().getFromIndex(54).getChild(10).getAsNumber());
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "Upgraded20", runtimeScene.getGame().getVariables().getFromIndex(54).getChild(20).getAsNumber());
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "Upgraded21", runtimeScene.getGame().getVariables().getFromIndex(54).getChild(21).getAsNumber());
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Player", "Upgraded22", runtimeScene.getGame().getVariables().getFromIndex(54).getChild(22).getAsNumber());
@@ -1251,7 +1270,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoreCode.mapOfGDgdjs_9546StoreCode_9546GDIconsButtonObjects2Objects, gdjs.StoreCode.mapOfGDgdjs_9546StoreCode_9546GDUpgradeButtonObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97615756);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97736100);
 }
 }
 if (isConditionTrue_0) {
@@ -1283,7 +1302,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoreCode.mapOfGDgdjs_9546StoreCode_9546GDArrowsPixelIconObjects2Objects, gdjs.StoreCode.mapOfGDgdjs_9546StoreCode_9546GDUpgradeButton2Objects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97617524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97737868);
 }
 }
 if (isConditionTrue_0) {
@@ -1504,7 +1523,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97632020);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(97752364);
 }
 }
 }
