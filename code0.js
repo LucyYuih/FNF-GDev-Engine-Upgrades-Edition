@@ -6,6 +6,12 @@ gdjs.WarningCode.GDGithubObjects1= [];
 gdjs.WarningCode.GDGithubObjects2= [];
 gdjs.WarningCode.GDgd_9595gamesObjects1= [];
 gdjs.WarningCode.GDgd_9595gamesObjects2= [];
+gdjs.WarningCode.GDdeleteObjects1= [];
+gdjs.WarningCode.GDdeleteObjects2= [];
+gdjs.WarningCode.GDcontinueObjects1= [];
+gdjs.WarningCode.GDcontinueObjects2= [];
+gdjs.WarningCode.GDStatistics3Objects1= [];
+gdjs.WarningCode.GDStatistics3Objects2= [];
 gdjs.WarningCode.GDStatisticsObjects1= [];
 gdjs.WarningCode.GDStatisticsObjects2= [];
 gdjs.WarningCode.GDComboNumbersObjects1= [];
@@ -80,14 +86,14 @@ isConditionTrue_0 = false;
 {let isConditionTrue_1 = false;
 isConditionTrue_0 = false;
 {
-{isConditionTrue_1 = (runtimeScene.getGame().getVariables().getFromIndex(43).getAsString() == "English");
+{isConditionTrue_1 = (runtimeScene.getGame().getVariables().getFromIndex(44).getAsString() == "English");
 }
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
 }
 }
 {
-{isConditionTrue_1 = (runtimeScene.getGame().getVariables().getFromIndex(43).getAsString() == "PtBr");
+{isConditionTrue_1 = (runtimeScene.getGame().getVariables().getFromIndex(44).getAsString() == "PtBr");
 }
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
@@ -97,7 +103,7 @@ if(isConditionTrue_1) {
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
+{gdjs.evtTools.camera.setCameraX(runtimeScene, 2880, "", 0);
 }}
 
 }
@@ -112,7 +118,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.storage.readStringFromJSONFile("Player", "Language", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(43));
+{gdjs.evtTools.storage.readStringFromJSONFile("Player", "Language", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(44));
 }{gdjs.evtTools.window.setGameResolutionSize(runtimeScene, 1920, 1080);
 }
 { //Subevents
@@ -137,9 +143,9 @@ for (var i = 0, k = 0, l = gdjs.WarningCode.GDGithubObjects1.length;i<l;++i) {
 }
 gdjs.WarningCode.GDGithubObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(43).setString("PtBr");
-}{gdjs.evtTools.storage.writeStringInJSONFile("Player", "Language", runtimeScene.getGame().getVariables().getFromIndex(43).getAsString());
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
+{runtimeScene.getGame().getVariables().getFromIndex(44).setString("PtBr");
+}{gdjs.evtTools.storage.writeStringInJSONFile("Player", "Language", runtimeScene.getGame().getVariables().getFromIndex(44).getAsString());
+}{gdjs.evtTools.camera.setCameraX(runtimeScene, 2880, "", 0);
 }}
 
 }
@@ -160,9 +166,69 @@ for (var i = 0, k = 0, l = gdjs.WarningCode.GDgd_9595gamesObjects1.length;i<l;++
 }
 gdjs.WarningCode.GDgd_9595gamesObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(43).setString("English");
-}{gdjs.evtTools.storage.writeStringInJSONFile("Player", "Language", runtimeScene.getGame().getVariables().getFromIndex(43).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(44).setString("English");
+}{gdjs.evtTools.storage.writeStringInJSONFile("Player", "Language", runtimeScene.getGame().getVariables().getFromIndex(44).getAsString());
+}{gdjs.evtTools.camera.setCameraX(runtimeScene, 2880, "", 0);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("delete"), gdjs.WarningCode.GDdeleteObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.WarningCode.GDdeleteObjects1.length;i<l;++i) {
+    if ( gdjs.WarningCode.GDdeleteObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.WarningCode.GDdeleteObjects1[k] = gdjs.WarningCode.GDdeleteObjects1[i];
+        ++k;
+    }
+}
+gdjs.WarningCode.GDdeleteObjects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.storage.clearJSONFile("Player");
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("continue"), gdjs.WarningCode.GDcontinueObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.WarningCode.GDcontinueObjects1.length;i<l;++i) {
+    if ( gdjs.WarningCode.GDcontinueObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.WarningCode.GDcontinueObjects1[k] = gdjs.WarningCode.GDcontinueObjects1[i];
+        ++k;
+    }
+}
+gdjs.WarningCode.GDcontinueObjects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(44).getAsString() == "PtBr");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Statistics3"), gdjs.WarningCode.GDStatistics3Objects1);
+{for(var i = 0, len = gdjs.WarningCode.GDStatistics3Objects1.length ;i < len;++i) {
+    gdjs.WarningCode.GDStatistics3Objects1[i].setBBText("Se você já jogou antes, é recomendado excluir seu save devido a mudanças nos preços e valores");
+}
 }}
 
 }
@@ -179,6 +245,12 @@ gdjs.WarningCode.GDGithubObjects1.length = 0;
 gdjs.WarningCode.GDGithubObjects2.length = 0;
 gdjs.WarningCode.GDgd_9595gamesObjects1.length = 0;
 gdjs.WarningCode.GDgd_9595gamesObjects2.length = 0;
+gdjs.WarningCode.GDdeleteObjects1.length = 0;
+gdjs.WarningCode.GDdeleteObjects2.length = 0;
+gdjs.WarningCode.GDcontinueObjects1.length = 0;
+gdjs.WarningCode.GDcontinueObjects2.length = 0;
+gdjs.WarningCode.GDStatistics3Objects1.length = 0;
+gdjs.WarningCode.GDStatistics3Objects2.length = 0;
 gdjs.WarningCode.GDStatisticsObjects1.length = 0;
 gdjs.WarningCode.GDStatisticsObjects2.length = 0;
 gdjs.WarningCode.GDComboNumbersObjects1.length = 0;
@@ -249,6 +321,12 @@ gdjs.WarningCode.GDGithubObjects1.length = 0;
 gdjs.WarningCode.GDGithubObjects2.length = 0;
 gdjs.WarningCode.GDgd_9595gamesObjects1.length = 0;
 gdjs.WarningCode.GDgd_9595gamesObjects2.length = 0;
+gdjs.WarningCode.GDdeleteObjects1.length = 0;
+gdjs.WarningCode.GDdeleteObjects2.length = 0;
+gdjs.WarningCode.GDcontinueObjects1.length = 0;
+gdjs.WarningCode.GDcontinueObjects2.length = 0;
+gdjs.WarningCode.GDStatistics3Objects1.length = 0;
+gdjs.WarningCode.GDStatistics3Objects2.length = 0;
 gdjs.WarningCode.GDStatisticsObjects1.length = 0;
 gdjs.WarningCode.GDStatisticsObjects2.length = 0;
 gdjs.WarningCode.GDComboNumbersObjects1.length = 0;
