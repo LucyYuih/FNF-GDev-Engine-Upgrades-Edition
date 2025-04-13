@@ -1035,7 +1035,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Inicio", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "freeplaytest", false);
 }}
 
 }
