@@ -62,6 +62,12 @@ gdjs.PauseCode.GDArrowsContObjects1= [];
 gdjs.PauseCode.GDArrowsContObjects2= [];
 gdjs.PauseCode.GDArrowsEarnTextObjects1= [];
 gdjs.PauseCode.GDArrowsEarnTextObjects2= [];
+gdjs.PauseCode.GDOppSideLifeBarObjects1= [];
+gdjs.PauseCode.GDOppSideLifeBarObjects2= [];
+gdjs.PauseCode.GDLifeBarObjects1= [];
+gdjs.PauseCode.GDLifeBarObjects2= [];
+gdjs.PauseCode.GDHeathBarObjects1= [];
+gdjs.PauseCode.GDHeathBarObjects2= [];
 
 
 gdjs.PauseCode.eventsList0 = function(runtimeScene) {
@@ -146,6 +152,12 @@ gdjs.PauseCode.GDArrowsContObjects1.length = 0;
 gdjs.PauseCode.GDArrowsContObjects2.length = 0;
 gdjs.PauseCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.PauseCode.GDArrowsEarnTextObjects2.length = 0;
+gdjs.PauseCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.PauseCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.PauseCode.GDLifeBarObjects1.length = 0;
+gdjs.PauseCode.GDLifeBarObjects2.length = 0;
+gdjs.PauseCode.GDHeathBarObjects1.length = 0;
+gdjs.PauseCode.GDHeathBarObjects2.length = 0;
 
 gdjs.PauseCode.eventsList0(runtimeScene);
 gdjs.PauseCode.GDStatisticsObjects1.length = 0;
@@ -210,6 +222,12 @@ gdjs.PauseCode.GDArrowsContObjects1.length = 0;
 gdjs.PauseCode.GDArrowsContObjects2.length = 0;
 gdjs.PauseCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.PauseCode.GDArrowsEarnTextObjects2.length = 0;
+gdjs.PauseCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.PauseCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.PauseCode.GDLifeBarObjects1.length = 0;
+gdjs.PauseCode.GDLifeBarObjects2.length = 0;
+gdjs.PauseCode.GDHeathBarObjects1.length = 0;
+gdjs.PauseCode.GDHeathBarObjects2.length = 0;
 
 
 return;

@@ -66,6 +66,12 @@ gdjs.CreditsCode.GDArrowsContObjects1= [];
 gdjs.CreditsCode.GDArrowsContObjects2= [];
 gdjs.CreditsCode.GDArrowsEarnTextObjects1= [];
 gdjs.CreditsCode.GDArrowsEarnTextObjects2= [];
+gdjs.CreditsCode.GDOppSideLifeBarObjects1= [];
+gdjs.CreditsCode.GDOppSideLifeBarObjects2= [];
+gdjs.CreditsCode.GDLifeBarObjects1= [];
+gdjs.CreditsCode.GDLifeBarObjects2= [];
+gdjs.CreditsCode.GDHeathBarObjects1= [];
+gdjs.CreditsCode.GDHeathBarObjects2= [];
 
 
 gdjs.CreditsCode.eventsList0 = function(runtimeScene) {
@@ -111,7 +117,7 @@ for (var i = 0, k = 0, l = gdjs.CreditsCode.GDPauseButton3Objects1.length;i<l;++
 gdjs.CreditsCode.GDPauseButton3Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(99871716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16089188);
 }
 }
 if (isConditionTrue_0) {
@@ -192,6 +198,12 @@ gdjs.CreditsCode.GDArrowsContObjects1.length = 0;
 gdjs.CreditsCode.GDArrowsContObjects2.length = 0;
 gdjs.CreditsCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.CreditsCode.GDArrowsEarnTextObjects2.length = 0;
+gdjs.CreditsCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.CreditsCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.CreditsCode.GDLifeBarObjects1.length = 0;
+gdjs.CreditsCode.GDLifeBarObjects2.length = 0;
+gdjs.CreditsCode.GDHeathBarObjects1.length = 0;
+gdjs.CreditsCode.GDHeathBarObjects2.length = 0;
 
 gdjs.CreditsCode.eventsList0(runtimeScene);
 gdjs.CreditsCode.GDfps2Objects1.length = 0;
@@ -260,6 +272,12 @@ gdjs.CreditsCode.GDArrowsContObjects1.length = 0;
 gdjs.CreditsCode.GDArrowsContObjects2.length = 0;
 gdjs.CreditsCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.CreditsCode.GDArrowsEarnTextObjects2.length = 0;
+gdjs.CreditsCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.CreditsCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.CreditsCode.GDLifeBarObjects1.length = 0;
+gdjs.CreditsCode.GDLifeBarObjects2.length = 0;
+gdjs.CreditsCode.GDHeathBarObjects1.length = 0;
+gdjs.CreditsCode.GDHeathBarObjects2.length = 0;
 
 
 return;

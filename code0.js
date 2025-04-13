@@ -74,6 +74,12 @@ gdjs.WarningCode.GDArrowsContObjects1= [];
 gdjs.WarningCode.GDArrowsContObjects2= [];
 gdjs.WarningCode.GDArrowsEarnTextObjects1= [];
 gdjs.WarningCode.GDArrowsEarnTextObjects2= [];
+gdjs.WarningCode.GDOppSideLifeBarObjects1= [];
+gdjs.WarningCode.GDOppSideLifeBarObjects2= [];
+gdjs.WarningCode.GDLifeBarObjects1= [];
+gdjs.WarningCode.GDLifeBarObjects2= [];
+gdjs.WarningCode.GDHeathBarObjects1= [];
+gdjs.WarningCode.GDHeathBarObjects2= [];
 
 
 gdjs.WarningCode.eventsList0 = function(runtimeScene) {
@@ -313,6 +319,12 @@ gdjs.WarningCode.GDArrowsContObjects1.length = 0;
 gdjs.WarningCode.GDArrowsContObjects2.length = 0;
 gdjs.WarningCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.WarningCode.GDArrowsEarnTextObjects2.length = 0;
+gdjs.WarningCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.WarningCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.WarningCode.GDLifeBarObjects1.length = 0;
+gdjs.WarningCode.GDLifeBarObjects2.length = 0;
+gdjs.WarningCode.GDHeathBarObjects1.length = 0;
+gdjs.WarningCode.GDHeathBarObjects2.length = 0;
 
 gdjs.WarningCode.eventsList1(runtimeScene);
 gdjs.WarningCode.GDStatistics2Objects1.length = 0;
@@ -389,6 +401,12 @@ gdjs.WarningCode.GDArrowsContObjects1.length = 0;
 gdjs.WarningCode.GDArrowsContObjects2.length = 0;
 gdjs.WarningCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.WarningCode.GDArrowsEarnTextObjects2.length = 0;
+gdjs.WarningCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.WarningCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.WarningCode.GDLifeBarObjects1.length = 0;
+gdjs.WarningCode.GDLifeBarObjects2.length = 0;
+gdjs.WarningCode.GDHeathBarObjects1.length = 0;
+gdjs.WarningCode.GDHeathBarObjects2.length = 0;
 
 
 return;

@@ -78,6 +78,12 @@ gdjs.DifficultiesCode.GDArrowsContObjects1= [];
 gdjs.DifficultiesCode.GDArrowsContObjects2= [];
 gdjs.DifficultiesCode.GDArrowsEarnTextObjects1= [];
 gdjs.DifficultiesCode.GDArrowsEarnTextObjects2= [];
+gdjs.DifficultiesCode.GDOppSideLifeBarObjects1= [];
+gdjs.DifficultiesCode.GDOppSideLifeBarObjects2= [];
+gdjs.DifficultiesCode.GDLifeBarObjects1= [];
+gdjs.DifficultiesCode.GDLifeBarObjects2= [];
+gdjs.DifficultiesCode.GDHeathBarObjects1= [];
+gdjs.DifficultiesCode.GDHeathBarObjects2= [];
 
 
 gdjs.DifficultiesCode.mapOfGDgdjs_9546DifficultiesCode_9546GDBlackScreen2Objects2Objects = Hashtable.newFrom({"BlackScreen2": gdjs.DifficultiesCode.GDBlackScreen2Objects2});
@@ -233,6 +239,12 @@ gdjs.DifficultiesCode.GDArrowsContObjects1.length = 0;
 gdjs.DifficultiesCode.GDArrowsContObjects2.length = 0;
 gdjs.DifficultiesCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.DifficultiesCode.GDArrowsEarnTextObjects2.length = 0;
+gdjs.DifficultiesCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.DifficultiesCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.DifficultiesCode.GDLifeBarObjects1.length = 0;
+gdjs.DifficultiesCode.GDLifeBarObjects2.length = 0;
+gdjs.DifficultiesCode.GDHeathBarObjects1.length = 0;
+gdjs.DifficultiesCode.GDHeathBarObjects2.length = 0;
 
 gdjs.DifficultiesCode.eventsList2(runtimeScene);
 gdjs.DifficultiesCode.GDBackObjects1.length = 0;
@@ -305,6 +317,12 @@ gdjs.DifficultiesCode.GDArrowsContObjects1.length = 0;
 gdjs.DifficultiesCode.GDArrowsContObjects2.length = 0;
 gdjs.DifficultiesCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.DifficultiesCode.GDArrowsEarnTextObjects2.length = 0;
+gdjs.DifficultiesCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.DifficultiesCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.DifficultiesCode.GDLifeBarObjects1.length = 0;
+gdjs.DifficultiesCode.GDLifeBarObjects2.length = 0;
+gdjs.DifficultiesCode.GDHeathBarObjects1.length = 0;
+gdjs.DifficultiesCode.GDHeathBarObjects2.length = 0;
 
 
 return;

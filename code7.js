@@ -176,6 +176,18 @@ gdjs.StoreCode.GDArrowsEarnTextObjects1= [];
 gdjs.StoreCode.GDArrowsEarnTextObjects2= [];
 gdjs.StoreCode.GDArrowsEarnTextObjects3= [];
 gdjs.StoreCode.GDArrowsEarnTextObjects4= [];
+gdjs.StoreCode.GDOppSideLifeBarObjects1= [];
+gdjs.StoreCode.GDOppSideLifeBarObjects2= [];
+gdjs.StoreCode.GDOppSideLifeBarObjects3= [];
+gdjs.StoreCode.GDOppSideLifeBarObjects4= [];
+gdjs.StoreCode.GDLifeBarObjects1= [];
+gdjs.StoreCode.GDLifeBarObjects2= [];
+gdjs.StoreCode.GDLifeBarObjects3= [];
+gdjs.StoreCode.GDLifeBarObjects4= [];
+gdjs.StoreCode.GDHeathBarObjects1= [];
+gdjs.StoreCode.GDHeathBarObjects2= [];
+gdjs.StoreCode.GDHeathBarObjects3= [];
+gdjs.StoreCode.GDHeathBarObjects4= [];
 
 
 gdjs.StoreCode.eventsList0 = function(runtimeScene) {
@@ -1275,7 +1287,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoreCode.mapOfGDgdjs_9546StoreCode_9546GDIconsButtonObjects2Objects, gdjs.StoreCode.mapOfGDgdjs_9546StoreCode_9546GDUpgradeButtonObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(100854188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13006996);
 }
 }
 if (isConditionTrue_0) {
@@ -1307,7 +1319,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoreCode.mapOfGDgdjs_9546StoreCode_9546GDArrowsPixelIconObjects2Objects, gdjs.StoreCode.mapOfGDgdjs_9546StoreCode_9546GDUpgradeButton2Objects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(100855572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13009308);
 }
 }
 if (isConditionTrue_0) {
@@ -1528,7 +1540,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(100870476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13037660);
 }
 }
 }
@@ -1737,6 +1749,18 @@ gdjs.StoreCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.StoreCode.GDArrowsEarnTextObjects2.length = 0;
 gdjs.StoreCode.GDArrowsEarnTextObjects3.length = 0;
 gdjs.StoreCode.GDArrowsEarnTextObjects4.length = 0;
+gdjs.StoreCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.StoreCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.StoreCode.GDOppSideLifeBarObjects3.length = 0;
+gdjs.StoreCode.GDOppSideLifeBarObjects4.length = 0;
+gdjs.StoreCode.GDLifeBarObjects1.length = 0;
+gdjs.StoreCode.GDLifeBarObjects2.length = 0;
+gdjs.StoreCode.GDLifeBarObjects3.length = 0;
+gdjs.StoreCode.GDLifeBarObjects4.length = 0;
+gdjs.StoreCode.GDHeathBarObjects1.length = 0;
+gdjs.StoreCode.GDHeathBarObjects2.length = 0;
+gdjs.StoreCode.GDHeathBarObjects3.length = 0;
+gdjs.StoreCode.GDHeathBarObjects4.length = 0;
 
 gdjs.StoreCode.eventsList12(runtimeScene);
 gdjs.StoreCode.GDUpgradeButtonObjects1.length = 0;
@@ -1907,6 +1931,18 @@ gdjs.StoreCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.StoreCode.GDArrowsEarnTextObjects2.length = 0;
 gdjs.StoreCode.GDArrowsEarnTextObjects3.length = 0;
 gdjs.StoreCode.GDArrowsEarnTextObjects4.length = 0;
+gdjs.StoreCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.StoreCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.StoreCode.GDOppSideLifeBarObjects3.length = 0;
+gdjs.StoreCode.GDOppSideLifeBarObjects4.length = 0;
+gdjs.StoreCode.GDLifeBarObjects1.length = 0;
+gdjs.StoreCode.GDLifeBarObjects2.length = 0;
+gdjs.StoreCode.GDLifeBarObjects3.length = 0;
+gdjs.StoreCode.GDLifeBarObjects4.length = 0;
+gdjs.StoreCode.GDHeathBarObjects1.length = 0;
+gdjs.StoreCode.GDHeathBarObjects2.length = 0;
+gdjs.StoreCode.GDHeathBarObjects3.length = 0;
+gdjs.StoreCode.GDHeathBarObjects4.length = 0;
 
 
 return;

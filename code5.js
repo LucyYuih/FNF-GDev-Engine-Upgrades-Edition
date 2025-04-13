@@ -64,6 +64,12 @@ gdjs.PRELOADMUSICSCode.GDArrowsContObjects1= [];
 gdjs.PRELOADMUSICSCode.GDArrowsContObjects2= [];
 gdjs.PRELOADMUSICSCode.GDArrowsEarnTextObjects1= [];
 gdjs.PRELOADMUSICSCode.GDArrowsEarnTextObjects2= [];
+gdjs.PRELOADMUSICSCode.GDOppSideLifeBarObjects1= [];
+gdjs.PRELOADMUSICSCode.GDOppSideLifeBarObjects2= [];
+gdjs.PRELOADMUSICSCode.GDLifeBarObjects1= [];
+gdjs.PRELOADMUSICSCode.GDLifeBarObjects2= [];
+gdjs.PRELOADMUSICSCode.GDHeathBarObjects1= [];
+gdjs.PRELOADMUSICSCode.GDHeathBarObjects2= [];
 
 
 gdjs.PRELOADMUSICSCode.eventsList0 = function(runtimeScene) {
@@ -178,6 +184,12 @@ gdjs.PRELOADMUSICSCode.GDArrowsContObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDArrowsContObjects2.length = 0;
 gdjs.PRELOADMUSICSCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDArrowsEarnTextObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDLifeBarObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDLifeBarObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDHeathBarObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDHeathBarObjects2.length = 0;
 
 gdjs.PRELOADMUSICSCode.eventsList0(runtimeScene);
 gdjs.PRELOADMUSICSCode.GDNewTextObjects1.length = 0;
@@ -244,6 +256,12 @@ gdjs.PRELOADMUSICSCode.GDArrowsContObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDArrowsContObjects2.length = 0;
 gdjs.PRELOADMUSICSCode.GDArrowsEarnTextObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDArrowsEarnTextObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppSideLifeBarObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppSideLifeBarObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDLifeBarObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDLifeBarObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDHeathBarObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDHeathBarObjects2.length = 0;
 
 
 return;
