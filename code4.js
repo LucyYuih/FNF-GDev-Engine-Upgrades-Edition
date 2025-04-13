@@ -435,7 +435,6 @@ gdjs.freeplaytestCode.mapOfGDgdjs_9546freeplaytestCode_9546GDbegfontObjects1Obje
 gdjs.freeplaytestCode.asyncCallback57109700 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.freeplaytestCode.localVariables);
 {gdjs.evtTools.storage.readNumberFromJSONFile("Song", "Page", runtimeScene, runtimeScene.getScene().getVariables().getFromIndex(8));
-}{runtimeScene.getScene().getVariables().getFromIndex(6).setBoolean(true);
 }gdjs.freeplaytestCode.localVariables.length = 0;
 }
 gdjs.freeplaytestCode.eventsList1 = function(runtimeScene) {
@@ -447,7 +446,7 @@ gdjs.freeplaytestCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.freeplaytestCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.05), (runtimeScene) => (gdjs.freeplaytestCode.asyncCallback57109700(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.freeplaytestCode.asyncCallback57109700(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -482,6 +481,9 @@ let isConditionTrue_0 = false;
 }{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Gameplay Modifiers");
 }{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Store");
 }{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, true);
+}{gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.func(runtimeScene, "assets\\weeks\\freeplayList.json", runtimeScene.getGame().getVariables().getFromIndex(63), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__ArrayTools__GlobalSplitString.func(runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(63).getAsString(), " ", runtimeScene.getGame().getVariables().getFromIndex(62), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{runtimeScene.getScene().getVariables().getFromIndex(6).setBoolean(true);
 }}
 
 }
