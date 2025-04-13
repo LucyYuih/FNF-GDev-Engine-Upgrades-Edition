@@ -432,7 +432,29 @@ let isConditionTrue_0 = false;
 
 };gdjs.freeplaytestCode.mapOfGDgdjs_9546freeplaytestCode_9546GDbegfontObjects1Objects = Hashtable.newFrom({"begfont": gdjs.freeplaytestCode.GDbegfontObjects1});
 gdjs.freeplaytestCode.mapOfGDgdjs_9546freeplaytestCode_9546GDbegfontObjects1Objects = Hashtable.newFrom({"begfont": gdjs.freeplaytestCode.GDbegfontObjects1});
+gdjs.freeplaytestCode.asyncCallback57109700 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.freeplaytestCode.localVariables);
+{gdjs.evtTools.storage.readNumberFromJSONFile("Song", "Page", runtimeScene, runtimeScene.getScene().getVariables().getFromIndex(8));
+}{runtimeScene.getScene().getVariables().getFromIndex(6).setBoolean(true);
+}gdjs.freeplaytestCode.localVariables.length = 0;
+}
 gdjs.freeplaytestCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.freeplaytestCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.05), (runtimeScene) => (gdjs.freeplaytestCode.asyncCallback57109700(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.freeplaytestCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -460,14 +482,26 @@ let isConditionTrue_0 = false;
 }{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Gameplay Modifiers");
 }{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Store");
 }{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, true);
-}{gdjs.evtTools.storage.readNumberFromJSONFile("Song", "Page", runtimeScene, runtimeScene.getScene().getVariables().getFromIndex(8));
 }}
 
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+{
+
+{ //Subevents
+gdjs.freeplaytestCode.eventsList1(runtimeScene);} //End of subevents
+}
+
+}
+
+
 };gdjs.freeplaytestCode.mapOfGDgdjs_9546freeplaytestCode_9546GDbegfontObjects1Objects = Hashtable.newFrom({"begfont": gdjs.freeplaytestCode.GDbegfontObjects1});
-gdjs.freeplaytestCode.eventsList2 = function(runtimeScene) {
+gdjs.freeplaytestCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -497,11 +531,11 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.freeplaytestCode.eventsList3 = function(runtimeScene) {
-
 };gdjs.freeplaytestCode.eventsList4 = function(runtimeScene) {
 
 };gdjs.freeplaytestCode.eventsList5 = function(runtimeScene) {
+
+};gdjs.freeplaytestCode.eventsList6 = function(runtimeScene) {
 
 {
 
@@ -712,7 +746,7 @@ let isConditionTrue_0 = false;
 
 
 };gdjs.freeplaytestCode.mapOfGDgdjs_9546freeplaytestCode_9546GDlevelnumbertextObjects3Objects = Hashtable.newFrom({"levelnumbertext": gdjs.freeplaytestCode.GDlevelnumbertextObjects3});
-gdjs.freeplaytestCode.eventsList6 = function(runtimeScene) {
+gdjs.freeplaytestCode.eventsList7 = function(runtimeScene) {
 
 {
 
@@ -770,7 +804,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.freeplaytestCode.eventsList7 = function(runtimeScene) {
+};gdjs.freeplaytestCode.eventsList8 = function(runtimeScene) {
 
 {
 
@@ -785,7 +819,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.freeplaytestCode.eventsList8 = function(runtimeScene, asyncObjectsList) {
+};gdjs.freeplaytestCode.eventsList9 = function(runtimeScene, asyncObjectsList) {
 
 {
 
@@ -831,7 +865,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("begfont"), gdjs.freeplaytestCode.GDb
 }
 
 
-};gdjs.freeplaytestCode.eventsList9 = function(runtimeScene, asyncObjectsList) {
+};gdjs.freeplaytestCode.eventsList10 = function(runtimeScene, asyncObjectsList) {
 
 {
 
@@ -843,7 +877,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.freeplaytestCode.eventsList8(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.freeplaytestCode.eventsList9(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 }
@@ -864,10 +898,10 @@ let isConditionTrue_0 = false;
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.freeplaytestCode.localVariables);
 
 { //Subevents
-gdjs.freeplaytestCode.eventsList9(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.freeplaytestCode.eventsList10(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.freeplaytestCode.localVariables.length = 0;
 }
-gdjs.freeplaytestCode.eventsList10 = function(runtimeScene) {
+gdjs.freeplaytestCode.eventsList11 = function(runtimeScene) {
 
 {
 
@@ -884,16 +918,16 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 }
 
 
-};gdjs.freeplaytestCode.eventsList11 = function(runtimeScene) {
-
 };gdjs.freeplaytestCode.eventsList12 = function(runtimeScene) {
+
+};gdjs.freeplaytestCode.eventsList13 = function(runtimeScene) {
 
 };gdjs.freeplaytestCode.asyncCallback100291500 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.freeplaytestCode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(3).setBoolean(true);
 }gdjs.freeplaytestCode.localVariables.length = 0;
 }
-gdjs.freeplaytestCode.eventsList13 = function(runtimeScene) {
+gdjs.freeplaytestCode.eventsList14 = function(runtimeScene) {
 
 {
 
@@ -909,7 +943,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 }
 
 
-};gdjs.freeplaytestCode.eventsList14 = function(runtimeScene) {
+};gdjs.freeplaytestCode.eventsList15 = function(runtimeScene) {
 
 {
 
@@ -1100,7 +1134,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.freeplaytestCode.eventsList15 = function(runtimeScene) {
+};gdjs.freeplaytestCode.eventsList16 = function(runtimeScene) {
 
 {
 
@@ -1354,7 +1388,7 @@ if (isConditionTrue_0) {
 
 };gdjs.freeplaytestCode.mapOfGDgdjs_9546freeplaytestCode_9546GDNew_95959595Objects1Objects = Hashtable.newFrom({"New_": gdjs.freeplaytestCode.GDNew_9595Objects1});
 gdjs.freeplaytestCode.mapOf = Hashtable.newFrom({});
-gdjs.freeplaytestCode.eventsList16 = function(runtimeScene) {
+gdjs.freeplaytestCode.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -1385,7 +1419,7 @@ gdjs.freeplaytestCode.GDbegfontObjects1.length = 0;
 }
 }
 { //Subevents
-gdjs.freeplaytestCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.freeplaytestCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -1426,7 +1460,7 @@ gdjs.freeplaytestCode.GDbegfontObjects1.length = 0;
 }{runtimeScene.getGame().getVariables().getFromIndex(64).add(3);
 }
 { //Subevents
-gdjs.freeplaytestCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.freeplaytestCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 }
@@ -1444,7 +1478,7 @@ if (isConditionTrue_0) {
 }{runtimeScene.getScene().getVariables().getFromIndex(7).setNumber(200);
 }
 { //Subevents
-gdjs.freeplaytestCode.eventsList5(runtimeScene);} //End of subevents
+gdjs.freeplaytestCode.eventsList6(runtimeScene);} //End of subevents
 }
 
 }
@@ -1586,7 +1620,7 @@ if (isConditionTrue_0) {
 }
 }
 { //Subevents: 
-gdjs.freeplaytestCode.eventsList6(runtimeScene);} //Subevents end.
+gdjs.freeplaytestCode.eventsList7(runtimeScene);} //Subevents end.
 }
 }
 
@@ -1650,7 +1684,7 @@ gdjs.copyArray(runtimeScene.getObjects("SwipeText"), gdjs.freeplaytestCode.GDSwi
 }{gdjs.evtTools.input.showCursor(runtimeScene);
 }
 { //Subevents
-gdjs.freeplaytestCode.eventsList7(runtimeScene);} //End of subevents
+gdjs.freeplaytestCode.eventsList8(runtimeScene);} //End of subevents
 }
 
 }
@@ -1727,7 +1761,7 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Song", "Page", runtimeScene.getScene().getVariables().getFromIndex(8).getAsNumber());
 }
 { //Subevents: 
-gdjs.freeplaytestCode.eventsList10(runtimeScene);} //Subevents end.
+gdjs.freeplaytestCode.eventsList11(runtimeScene);} //Subevents end.
 }
 }
 
@@ -2069,7 +2103,7 @@ gdjs.copyArray(runtimeScene.getObjects("UpKeybind"), gdjs.freeplaytestCode.GDUpK
 }{runtimeScene.getScene().getVariables().getFromIndex(3).setBoolean(false);
 }
 { //Subevents
-gdjs.freeplaytestCode.eventsList13(runtimeScene);} //End of subevents
+gdjs.freeplaytestCode.eventsList14(runtimeScene);} //End of subevents
 }
 
 }
@@ -2113,14 +2147,14 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.freeplaytestCode.eventsList14(runtimeScene);
+gdjs.freeplaytestCode.eventsList15(runtimeScene);
 }
 
 
 {
 
 
-gdjs.freeplaytestCode.eventsList15(runtimeScene);
+gdjs.freeplaytestCode.eventsList16(runtimeScene);
 }
 
 
@@ -2824,7 +2858,7 @@ gdjs.freeplaytestCode.GDArrowsEarnTextObjects5.length = 0;
 gdjs.freeplaytestCode.GDArrowsEarnTextObjects6.length = 0;
 gdjs.freeplaytestCode.GDArrowsEarnTextObjects7.length = 0;
 
-gdjs.freeplaytestCode.eventsList16(runtimeScene);
+gdjs.freeplaytestCode.eventsList17(runtimeScene);
 gdjs.freeplaytestCode.GDBackObjects1.length = 0;
 gdjs.freeplaytestCode.GDBackObjects2.length = 0;
 gdjs.freeplaytestCode.GDBackObjects3.length = 0;
